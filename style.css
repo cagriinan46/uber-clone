@@ -158,3 +158,13 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+.picture {
+    height: 800px;
+    width: 800px;
+    margin-bottom: 1000px;
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
