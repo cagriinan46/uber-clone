@@ -10,6 +10,7 @@
     padding-top: 5px;
     padding-left: 15px;
     cursor: pointer;
+    font-size: 30px;
 }
 .sign-in {
     background-color: black;
@@ -24,6 +25,7 @@
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
+    margin-right: 10px;
 }
 .sign-up {
     border: none;
@@ -91,6 +93,45 @@
     font-weight: 500;
     cursor: pointer;
 }
+.text {
+    color: white;
+    font-family: Inter, Arial;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-right: 12px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.r-text {
+    color: white;
+    font-family: Inter, Arial;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 2px;
+    margin-right: 12px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.text:hover,
+.r-text:hover {
+    background-color: rgb(47, 47, 47);
+    transition: background-color 0.20s;
+}
 .see-prices:hover {
     background-color: rgb(238, 238, 238);
     transition: background-color 0.20s;
@@ -106,4 +147,14 @@ input::placeholder {
 body, html {
     margin: 0;
     padding: 0;
+}
+.mid-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
