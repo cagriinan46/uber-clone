@@ -1,0 +1,109 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.uber {
+    font-family: Inter, Arial;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.sign-in {
+    background-color: black;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: Inter, Arial;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sign-up {
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-family: Inter, Arial;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sign-in:hover {
+    background-color: rgb(38, 38, 38);
+    transition: background-color 0.20s;
+}
+.sign-up:hover {
+    background-color: rgb(238, 238, 238);
+    transition: background-color 0.20s;
+}
+.middle {
+    background-color: black;
+}
+.text1 {
+    font-family: Inter, Arial;
+    font-weight: 700;
+    color: white;
+    font-size: 36px;
+    margin-left: 20px;
+}
+.text2 {
+    font-family: Inter, Arial;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.location, .destination {
+    display: block;
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 250px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border: none;
+}
+.see-prices {
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Inter, Arial;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.see-prices:hover {
+    background-color: rgb(238, 238, 238);
+    transition: background-color 0.20s;
+}
+input::placeholder {
+    font-family: Inter, Arial;
+    padding-left: 10px;
+}
+.all-of-them {
+    background-color: black;
+    height: 3000px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
