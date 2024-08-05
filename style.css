@@ -142,7 +142,7 @@ input::placeholder {
 }
 .all-of-them {
     background-color: black;
-    height: 3000px;
+
 }
 body, html {
     margin: 0;
@@ -167,4 +167,58 @@ body, html {
     justify-content: center;
     align-items: center;
     object-fit: cover;
+}
+.all-of-them2 {
+    background-color: white;
+}
+.picture2 {
+    height: 539px;
+    width: 539px;
+    object-fit: cover;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+.text3 {
+    font-family: Inter, Arial;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.text4 {
+    font-family: Inter, Arial;
+    font-size: 16px;
+    font-weight: 400;
+}
+.start {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Inter, Arial;
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.already-have-acc {
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+}
+.all-of-them3 {
+    background-color: white;
 }
