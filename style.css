@@ -222,3 +222,33 @@ body {
 .all-of-them3 {
     background-color: white;
 }
+.qr1,
+.qr2 {
+    height: 150px;
+    width: 150px;
+}
+.download {
+    font-family: Inter, Arial;
+    font-weight: 700;
+    font-size: 22px;
+}
+.scan {
+    font-size: 15px;
+    font-family: Inter, Arial;
+    font-weight: 400;
+}
+.general {
+    background-color: rgb(232, 232, 232);
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+.general-text {
+    font-family: Inter, Arial;
+    font-size: 32px;
+    font-weight: 700;
+}
+.divqr1,
+.divqr2 {
+    background-color: white;
+    display: flex;
+}
